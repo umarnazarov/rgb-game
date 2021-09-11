@@ -1,0 +1,85 @@
+body {
+	background: #232323;
+	margin: 0;
+	font-family: 'Oxanium', cursive;
+
+}
+
+.squares {
+	width: 30%;
+	background: pink;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	transition: background 0.7s;
+	border-radius: 15%;
+
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	  position: absolute;
+	  bottom: 0;
+	  width: 102.1%;
+	  /* Set the fixed height of the footer here */
+	  height:40px;
+	  margin-top: 70px;
+}
+
+#container {
+	margin: 20px auto;
+	max-width: 600px;
+	margin-bottom: 100px
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	background: steelblue;
+	margin: 0;
+	line-height: 1.1;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+#strike {
+	height: 30px;
+	background: white;
+	text-align: center;
+	color: black;
+}
+
+.selected {
+	color: white;
+	background: steelblue;
+}
+
+#colorDisplay {
+	font-size: 70px;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	outline: none;
+}
+
+button:hover {
+	color: white;
+	background: steelblue;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
